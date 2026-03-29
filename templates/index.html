@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JARVIS Core | Mark VII</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="state-idle">
+
+    <!-- Decorative HUD Elements -->
+    <div class="data-bits">
+        <p>STARK_ENT_ENCRYPTED_LINK: ACTIVE</p>
+        <p>PROTOCOL_STATUS: THREAT_LEVEL_ZERO</p>
+        <p>NEURAL_ENGINE_V4: OPTIMIZED</p>
+    </div>
+
+    <div class="container">
+        <!-- The Animated Core -->
+        <div class="jarvis-core">
+            <div class="ring outer-ring"></div>
+            <div class="ring middle-ring"></div>
+            <div class="ring inner-ring"></div>
+            <div class="core-center"></div>
+        </div>
+
+        <!-- Status & Identity -->
+        <div class="identity-panel">
+            <h1 id="status-text">JARVIS</h1>
+            <p id="subtitle-text">System Online // Mark VII</p>
+        </div>
+
+        <!-- Real-time Log -->
+        <div id="log-window" style="margin-top: 20px; font-family: 'Rajdhani'; color: rgba(68, 221, 255, 0.8); max-width: 400px;">
+            <p id="current-task">Awaiting Voice Input...</p>
+        </div>
+    </div>
+
+    <!-- Socket.IO for real-time connection to Python -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

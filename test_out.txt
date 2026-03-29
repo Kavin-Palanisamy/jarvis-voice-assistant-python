@@ -1,0 +1,1445 @@
+Starting Automated Command Tester...
+==================================================
+Testing Command: [93m'open chrome'[0m
+[JARVIS] Executing task: open chrome
+  -> Task 1: 'open chrome' | Response: Navigating to https://www.google.com.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'open youtube and search music'[0m
+[JARVIS] Executing task: open youtube
+  -> Task 1: 'open youtube' | Response: Navigating to https://www.youtube.com.
+[JARVIS] Executing task: search music
+  -> Task 2: 'search music' | Response: Searching Google for: music.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'take screenshot'[0m
+[JARVIS] Executing task: take screenshot
+  -> Task 1: 'take screenshot' | Response: Screenshot captured and saved to screenshots\screenshot_20260323_174830.png.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'increase volume'[0m
+[JARVIS] Executing task: increase volume
+[JARVIS] Routing 'increase volume' to AI Brain...
+  -> Task 1: 'increase volume' | Response: Mock AI Response
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'read screen'[0m
+[JARVIS] Executing task: read screen
+  -> Task 1: 'read screen' | Response: Error reading screen: [Errno 2] No such file or directory: 'C:\\Users\\Kavin\\.gemini\\antigravity\\...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'remember my name is Jarvis'[0m
+[JARVIS] Executing task: remember my name is Jarvis
+  -> Task 1: 'remember my name is Jarvis' | Response: Memory updated: name is now set to Jarvis.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'shutdown'[0m
+[JARVIS] Executing task: shutdown
+  -> Task 1: 'shutdown' | Response: Initializing system shutdown sequence.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'open google and search python then take screenshot'[0m
+[JARVIS] Executing task: open google
+  -> Task 1: 'open google' | Response: Navigating to https://www.google.com.
+[JARVIS] Executing task: search python
+  -> Task 2: 'search python' | Response: Searching Google for: python.
+[JARVIS] Executing task: take screenshot
+  -> Task 3: 'take screenshot' | Response: Screenshot captured and saved to screenshots\screenshot_20260323_174830.png.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'open youtube and play ACDC'[0m
+[JARVIS] Executing task: open youtube
+  -> Task 1: 'open youtube' | Response: Navigating to https://www.youtube.com.
+[JARVIS] Executing task: play ACDC
+[JARVIS] Routing 'play ACDC' to AI Brain...
+  -> Task 2: 'play ACDC' | Response: Mock AI Response
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'turn off wifi'[0m
+[JARVIS] Executing task: turn off wifi
+  -> Task 1: 'turn off wifi' | Response: WiFi has been turned off, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'turn on light'[0m
+[JARVIS] Executing task: turn on light
+  -> Task 1: 'turn on light' | Response: Failed to connect to ESP32: HTTPConnectionPool(host='192.168.1.100', port=80): Max retries exceeded ...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'open browser'[0m
+[JARVIS] Executing task: open browser
+  -> Task 1: 'open browser' | Response: Navigating to https://www.google.com.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'open google'[0m
+[JARVIS] Executing task: open google
+  -> Task 1: 'open google' | Response: Navigating to https://www.google.com.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'open youtube'[0m
+[JARVIS] Executing task: open youtube
+  -> Task 1: 'open youtube' | Response: Navigating to https://www.youtube.com.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'open spotify'[0m
+[JARVIS] Executing task: open spotify
+  -> Task 1: 'open spotify' | Response: Navigating to https://open.spotify.com.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'open gmail'[0m
+[JARVIS] Executing task: open gmail
+  -> Task 1: 'open gmail' | Response: Navigating to https://mail.google.com.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'open github'[0m
+[JARVIS] Executing task: open github
+  -> Task 1: 'open github' | Response: Navigating to https://github.com.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'open netflix'[0m
+[JARVIS] Executing task: open netflix
+  -> Task 1: 'open netflix' | Response: Navigating to https://www.netflix.com.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'open twitter'[0m
+[JARVIS] Executing task: open twitter
+  -> Task 1: 'open twitter' | Response: Navigating to https://twitter.com.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'open reddit'[0m
+[JARVIS] Executing task: open reddit
+  -> Task 1: 'open reddit' | Response: Navigating to https://www.reddit.com.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'read the news'[0m
+[JARVIS] Executing task: read the news
+  -> Task 1: 'read the news' | Response: Opening Google News for you, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'open news'[0m
+[JARVIS] Executing task: open news
+  -> Task 1: 'open news' | Response: Opening Google News for you, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'volume up'[0m
+[JARVIS] Executing task: volume up
+  -> Task 1: 'volume up' | Response: Volume turned up.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'volume down'[0m
+[JARVIS] Executing task: volume down
+  -> Task 1: 'volume down' | Response: Volume turned down.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'mute'[0m
+[JARVIS] Executing task: mute
+  -> Task 1: 'mute' | Response: Volume muted.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'unmute'[0m
+[JARVIS] Executing task: unmute
+  -> Task 1: 'unmute' | Response: Volume muted.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'system info'[0m
+[JARVIS] Executing task: system info
+  -> Task 1: 'system info' | Response: CPU usage is at 82.0 percent, and RAM usage is at 90.0 percent.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'cpu usage'[0m
+[JARVIS] Executing task: cpu usage
+  -> Task 1: 'cpu usage' | Response: CPU usage is at 92.4 percent, and RAM usage is at 90.2 percent.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'ram usage'[0m
+[JARVIS] Executing task: ram usage
+  -> Task 1: 'ram usage' | Response: CPU usage is at 85.1 percent, and RAM usage is at 90.7 percent.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'cpu'[0m
+[JARVIS] Executing task: cpu
+  -> Task 1: 'cpu' | Response: CPU usage is at 57.4 percent, and RAM usage is at 90.9 percent.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'ram'[0m
+[JARVIS] Executing task: ram
+  -> Task 1: 'ram' | Response: CPU usage is at 51.9 percent, and RAM usage is at 91.0 percent.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'restart'[0m
+[JARVIS] Executing task: restart
+  -> Task 1: 'restart' | Response: Initializing system restart sequence.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'scroll up'[0m
+[JARVIS] Executing task: scroll up
+  -> Task 1: 'scroll up' | Response: Scrolling up, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'scroll down'[0m
+[JARVIS] Executing task: scroll down
+  -> Task 1: 'scroll down' | Response: Scrolling down, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'press enter'[0m
+[JARVIS] Executing task: press enter
+  -> Task 1: 'press enter' | Response: Pressed the enter key, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'press escape'[0m
+[JARVIS] Executing task: press escape
+  -> Task 1: 'press escape' | Response: Pressed the escape key, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'press space'[0m
+[JARVIS] Executing task: press space
+  -> Task 1: 'press space' | Response: Pressed the space key, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'press tab'[0m
+[JARVIS] Executing task: press tab
+  -> Task 1: 'press tab' | Response: Pressed the tab key, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'press backspace'[0m
+[JARVIS] Executing task: press backspace
+  -> Task 1: 'press backspace' | Response: Pressed the backspace key, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'click'[0m
+[JARVIS] Executing task: click
+  -> Task 1: 'click' | Response: Clicking now, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'click the button'[0m
+[JARVIS] Executing task: click the button
+  -> Task 1: 'click the button' | Response: Clicking now, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'right click'[0m
+[JARVIS] Executing task: right click
+  -> Task 1: 'right click' | Response: Right-click executed, Sir.Error in task processing for 'take a photo': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 13, in capture_photo
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'take photo': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 13, in capture_photo
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'capture image': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 13, in capture_photo
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'capture photo': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 13, in capture_photo
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'take a selfie': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 38, in take_selfie
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'take selfie': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 38, in take_selfie
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'selfie': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 38, in take_selfie
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'start camera': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 153, in start_camera_feed
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'double click'[0m
+[JARVIS] Executing task: double click
+  -> Task 1: 'double click' | Response: Double-click executed, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'mouse position'[0m
+[JARVIS] Executing task: mouse position
+  -> Task 1: 'mouse position' | Response: The cursor is at 960, 540.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'move mouse to the top right'[0m
+[JARVIS] Executing task: move mouse to the top right
+  -> Task 1: 'move mouse to the top right' | Response: Mouse moved to the top-right, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'move mouse to the top left'[0m
+[JARVIS] Executing task: move mouse to the top left
+  -> Task 1: 'move mouse to the top left' | Response: Mouse moved to the top-left, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'move mouse to the bottom right'[0m
+[JARVIS] Executing task: move mouse to the bottom right
+  -> Task 1: 'move mouse to the bottom right' | Response: Mouse moved to the bottom-right, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'move mouse to the bottom left'[0m
+[JARVIS] Executing task: move mouse to the bottom left
+  -> Task 1: 'move mouse to the bottom left' | Response: Mouse moved to the bottom-left, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'move mouse to center'[0m
+[JARVIS] Executing task: move mouse to center
+  -> Task 1: 'move mouse to center' | Response: Mouse moved to the center, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'move to top right'[0m
+[JARVIS] Executing task: move to top right
+  -> Task 1: 'move to top right' | Response: Mouse moved to the top-right, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'move to top left'[0m
+[JARVIS] Executing task: move to top left
+  -> Task 1: 'move to top left' | Response: Mouse moved to the top-left, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'move to bottom right'[0m
+[JARVIS] Executing task: move to bottom right
+  -> Task 1: 'move to bottom right' | Response: Mouse moved to the bottom-right, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'move to bottom left'[0m
+[JARVIS] Executing task: move to bottom left
+  -> Task 1: 'move to bottom left' | Response: Mouse moved to the bottom-left, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'copy'[0m
+[JARVIS] Executing task: copy
+  -> Task 1: 'copy' | Response: Shortcut ctrl+c executed.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'paste'[0m
+[JARVIS] Executing task: paste
+  -> Task 1: 'paste' | Response: Shortcut ctrl+v executed.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'undo'[0m
+[JARVIS] Executing task: undo
+  -> Task 1: 'undo' | Response: Shortcut ctrl+z executed.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'redo'[0m
+[JARVIS] Executing task: redo
+  -> Task 1: 'redo' | Response: Shortcut ctrl+y executed.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'select all'[0m
+[JARVIS] Executing task: select all
+  -> Task 1: 'select all' | Response: Shortcut ctrl+a executed.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'save'[0m
+[JARVIS] Executing task: save
+  -> Task 1: 'save' | Response: Shortcut ctrl+s executed.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'close window'[0m
+[JARVIS] Executing task: close window
+  -> Task 1: 'close window' | Response: Shortcut alt+f4 executed.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'new tab'[0m
+[JARVIS] Executing task: new tab
+  -> Task 1: 'new tab' | Response: Shortcut ctrl+t executed.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'close tab'[0m
+[JARVIS] Executing task: close tab
+  -> Task 1: 'close tab' | Response: Shortcut ctrl+w executed.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'clear history'[0m
+[JARVIS] Executing task: clear history
+  -> Task 1: 'clear history' | Response: Conversation history cleared.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'show my saved memories'[0m
+[JARVIS] Executing task: show my saved memories
+  -> Task 1: 'show my saved memories' | Response: Here are all my stored memories, Sir:
+  • favorite music: lo-fi
+  • info: my boss name is kavin
+  • ...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'show memories'[0m
+[JARVIS] Executing task: show memories
+  -> Task 1: 'show memories' | Response: Here are all my stored memories, Sir:
+  • favorite music: lo-fi
+  • info: my boss name is kavin
+  • ...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'show saved memories'[0m
+[JARVIS] Executing task: show saved memories
+  -> Task 1: 'show saved memories' | Response: Here are all my stored memories, Sir:
+  • favorite music: lo-fi
+  • info: my boss name is kavin
+  • ...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'what do you remember'[0m
+[JARVIS] Executing task: what do you remember
+  -> Task 1: 'what do you remember' | Response: Here are all my stored memories, Sir:
+  • favorite music: lo-fi
+  • info: my boss name is kavin
+  • ...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'turn off light'[0m
+[JARVIS] Executing task: turn off light
+  -> Task 1: 'turn off light' | Response: Failed to connect to ESP32: HTTPConnectionPool(host='192.168.1.100', port=80): Max retries exceeded ...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'check sensor'[0m
+[JARVIS] Executing task: check sensor
+  -> Task 1: 'check sensor' | Response: Could not read sensor data: HTTPConnectionPool(host='192.168.1.100', port=80): Max retries exceeded ...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'sensor report'[0m
+[JARVIS] Executing task: sensor report
+  -> Task 1: 'sensor report' | Response: Could not read sensor data: HTTPConnectionPool(host='192.168.1.100', port=80): Max retries exceeded ...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'turn on wifi'[0m
+[JARVIS] Executing task: turn on wifi
+  -> Task 1: 'turn on wifi' | Response: WiFi has been turned on, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'disable wifi'[0m
+[JARVIS] Executing task: disable wifi
+  -> Task 1: 'disable wifi' | Response: WiFi has been turned off, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'enable wifi'[0m
+[JARVIS] Executing task: enable wifi
+  -> Task 1: 'enable wifi' | Response: WiFi has been turned on, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'take a photo'[0m
+[JARVIS] Executing task: take a photo
+  -> Task 1: 'take a photo' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'take photo'[0m
+[JARVIS] Executing task: take photo
+  -> Task 1: 'take photo' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'capture image'[0m
+[JARVIS] Executing task: capture image
+  -> Task 1: 'capture image' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'capture photo'[0m
+[JARVIS] Executing task: capture photo
+  -> Task 1: 'capture photo' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'take a selfie'[0m
+[JARVIS] Executing task: take a selfie
+Smile, Sir!
+  -> Task 1: 'take a selfie' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'take selfie'[0m
+[JARVIS] Executing task: take selfie
+Smile, Sir!
+  -> Task 1: 'take selfie' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'selfie'[0m
+[JARVIS] Executing task: selfie
+Smile, Sir!
+  -> Task 1: 'selfie' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'start camera'[0m
+[JARVIS] Executing task: start camera
+Starting visual feed... Press 'q' to close.
+  -> Task 1: 'start camera' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...Error in task processing for 'open the camera': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 153, in start_camera_feed
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'open camera': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 153, in start_camera_feed
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'detect faces': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 57, in detect_faces
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'who is in the room': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 57, in detect_faces
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'what do you see': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 57, in detect_faces
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'scan the room': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 57, in detect_faces
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'look around': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 57, in detect_faces
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'count people': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 77, in count_people
+    return detect_faces()
+           ^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 57, in detect_faces
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'count people in front of the camera': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 77, in count_people
+    return detect_faces()
+           ^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 57, in detect_faces
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'how many people': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 77, in count_people
+    return detect_faces()
+           ^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 57, in detect_faces
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'start object detection': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 87, in detect_objects
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'detect objects': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 87, in detect_objects
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'object detection': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 87, in detect_objects
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'record video': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 137, in record_video
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'start recording': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 137, in record_video
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'record a video': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\camera_vision.py", line 137, in record_video
+    ret, frame = cap.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'open the camera'[0m
+[JARVIS] Executing task: open the camera
+Starting visual feed... Press 'q' to close.
+  -> Task 1: 'open the camera' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'open camera'[0m
+[JARVIS] Executing task: open camera
+Starting visual feed... Press 'q' to close.
+  -> Task 1: 'open camera' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'detect faces'[0m
+[JARVIS] Executing task: detect faces
+  -> Task 1: 'detect faces' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'who is in the room'[0m
+[JARVIS] Executing task: who is in the room
+  -> Task 1: 'who is in the room' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'what do you see'[0m
+[JARVIS] Executing task: what do you see
+  -> Task 1: 'what do you see' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'scan the room'[0m
+[JARVIS] Executing task: scan the room
+  -> Task 1: 'scan the room' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'look around'[0m
+[JARVIS] Executing task: look around
+  -> Task 1: 'look around' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'count people'[0m
+[JARVIS] Executing task: count people
+  -> Task 1: 'count people' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'count people in front of the camera'[0m
+[JARVIS] Executing task: count people in front of the camera
+  -> Task 1: 'count people in front of the camera' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'how many people'[0m
+[JARVIS] Executing task: how many people
+  -> Task 1: 'how many people' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'start object detection'[0m
+[JARVIS] Executing task: start object detection
+  -> Task 1: 'start object detection' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'detect objects'[0m
+[JARVIS] Executing task: detect objects
+  -> Task 1: 'detect objects' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'object detection'[0m
+[JARVIS] Executing task: object detection
+  -> Task 1: 'object detection' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'record video'[0m
+[JARVIS] Executing task: record video
+Recording for 10 seconds...
+  -> Task 1: 'record video' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'start recording'[0m
+[JARVIS] Executing task: start recording
+Recording for 10 seconds...
+  -> Task 1: 'start recording' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'record a video'[0m
+[JARVIS] Executing task: record a video
+Recording for 10 seconds...
+  -> Task 1: 'record a video' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'read my screen'[0m
+[JARVIS] Executing task: read my screen
+  -> Task 1: 'read my screen' | Response: Error reading screen: [Errno 2] No such file or directory: 'C:\\Users\\Kavin\\.gemini\\antigravity\\...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'summarize my screen'[0m
+[JARVIS] Executing task: summarize my screen
+AI Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+Please retry in 46.534077122s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 46
+}
+]
+Daily quota exhausted. Skipping AI call.
+  -> Task 1: 'summarize my screen' | Response: Based on my optical analysis, you are looking at:
+Sir, my neural network's daily quota has been exha...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'summarize screen'[0m
+[JARVIS] Executing task: summarize screen
+AI Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite
+Please retry in 45.309986309s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 45
+}
+]
+Daily quota exhausted. Skipping AI call.
+  -> Task 1: 'summarize screen' | Response: Based on my optical analysis, you are looking at:
+Sir, my neural network's daily quota has been exha...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'summarize this page'[0m
+[JARVIS] Executing task: summarize this page
+AI Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+Please retry in 43.728710059s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 43
+}
+]
+Daily quota exhausted. Skipping AI call.
+  -> Task 1: 'summarize this page' | Response: Based on my optical analysis, you are looking at:
+Sir, my neural network's daily quota has been exha...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'what am i looking at'[0m
+[JARVIS] Executing task: what am i looking at
+AI Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+Please retry in 41.829917236s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 41
+}
+]
+Daily quota exhausted. Skipping AI call.
+  -> Task 1: 'what am i looking at' | Response: Based on my optical analysis, you are looking at:
+Sir, my neural network's daily quota has been exha...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'what is on my screen'[0m
+[JARVIS] Executing task: what is on my screen
+AI Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite
+Please retry in 41.120977772s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 41
+}
+]
+Daily quota exhausted. Skipping AI call.
+  -> Task 1: 'what is on my screen' | Response: Based on my optical analysis, you are looking at:
+Sir, my neural network's daily quota has been exha...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'what's on my screen'[0m
+[JARVIS] Executing task: what's on my screen
+AI Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite
+Please retry in 39.498560238s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 39
+}
+]
+Daily quota exhausted. Skipping AI call.
+  -> Task 1: 'what's on my screen' | Response: Based on my optical analysis, you are looking at:
+Sir, my neural network's daily quota has been exha...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'extract text from screen'[0m
+[JARVIS] Executing task: extract text from screen
+  -> Task 1: 'extract text from screen' | Response: Here is the text I extracted from your screen, Sir:
+Error reading screen: [Errno 2] No such file or ...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'extract text'[0m
+[JARVIS] Executing task: extract text
+  -> Task 1: 'extract text' | Response: Here is the text I extracted from your screen, Sir:
+Error reading screen: [Errno 2] No such file or ...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'explain this document'[0m
+[JARVIS] Executing task: explain this document
+AI Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite
+Please retry in 37.959221258s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 37
+}
+]
+Daily quota exhausted. Skipping AI call.
+  -> Task 1: 'explain this document' | Response: Document analysis complete, Sir:
+Sir, my neural network's daily quota has been exhausted. Please che...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'explain document'[0m
+[JARVIS] Executing task: explain document
+AI Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+Please retry in 36.833644117s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 36
+}
+]
+Daily quota exhausted. Skipping AI call.
+  -> Task 1: 'explain document' | Response: Document analysis complete, Sir:
+Sir, my neural network's daily quota has been exhausted. Please che...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'read this document'[0m
+[JARVIS] Executing task: read this document
+AI Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-lite
+Please retry in 35.220975742s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 35
+}
+]
+Daily quota exhausted. Skipping AI call.
+  -> Task 1: 'read this document' | Response: Document analysis complete, Sir:
+Sir, my neural network's daily quota has been exhausted. Please che...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'start security scan'[0m
+[JARVIS] Executing task: start security scan
+Running identity verification scan...
+Warning: No authorized faces found. Skipping biometric login.
+  -> Task 1: 'start security scan' | Response: Identity verified. Welcome, Admin. Access granted.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'security scan'[0m
+[JARVIS] Executing task: security scan
+Running identity verification scan...
+Warning: No authorized faces found. Skipping biometric login.
+  -> Task 1: 'security scan' | Response: Identity verified. Welcome, Admin. Access granted.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'verify my identity'[0m
+[JARVIS] Executing task: verify my identity
+Running identity verification scan...
+Warning: No authorized faces found. Skipping biometric login.
+  -> Task 1: 'verify my identity' | Response: Identity verified. Welcome, Admin. Access granted.
+[[92mSUCCESS[0m]
+Error in task processing for 'enable face recognition': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\face_recognition_login.py", line 124, in enable_face_recognition
+    ret, frame = video_capture.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+Error in task processing for 'enroll face': not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 243, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 257, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\face_recognition_login.py", line 124, in enable_face_recognition
+    ret, frame = video_capture.read()
+    ^^^^^^^^^^
+ValueError: not enough values to unpack (expected 2, got 0)
+
+Testing Command: [93m'verify identity'[0m
+[JARVIS] Executing task: verify identity
+Running identity verification scan...
+Warning: No authorized faces found. Skipping biometric login.
+  -> Task 1: 'verify identity' | Response: Identity verified. Welcome, Admin. Access granted.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'who am i'[0m
+[JARVIS] Executing task: who am i
+Running identity verification scan...
+Warning: No authorized faces found. Skipping biometric login.
+  -> Task 1: 'who am i' | Response: Identity verified. Welcome, Admin. Access granted.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'enable face recognition'[0m
+[JARVIS] Executing task: enable face recognition
+Enrolling face for: Admin. Please look at the camera...
+  -> Task 1: 'enable face recognition' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'enroll face'[0m
+[JARVIS] Executing task: enroll face
+Enrolling face for: Admin. Please look at the camera...
+  -> Task 1: 'enroll face' | Response: Sir, I encountered a systemic error while processing your request: not enough values to unpack (expe...
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'lock the system'[0m
+[JARVIS] Executing task: lock the system
+  -> Task 1: 'lock the system' | Response: System locked, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'lock system'[0m
+[JARVIS] Executing task: lock system
+  -> Task 1: 'lock system' | Response: System locked, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'lock screen'[0m
+[JARVIS] Executing task: lock screen
+  -> Task 1: 'lock screen' | Response: System locked, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'lock computer'[0m
+[JARVIS] Executing task: lock computer
+  -> Task 1: 'lock computer' | Response: System locked, Sir.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'unlock using face scan'[0m
+[JARVIS] Executing task: unlock using face scan
+Running identity verification scan...
+Warning: No authorized faces found. Skipping biometric login.
+  -> Task 1: 'unlock using face scan' | Response: Identity verified. Welcome, Admin. Access granted.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'unlock with face'[0m
+[JARVIS] Executing task: unlock with face
+Running identity verification scan...
+Warning: No authorized faces found. Skipping biometric login.
+  -> Task 1: 'unlock with face' | Response: Identity verified. Welcome, Admin. Access granted.
+[[92mSUCCESS[0m]
+
+Testing Command: [93m'face unlock'[0m
+[JARVIS] Executing task: face unlock
+Running identity verification scan...
+Warning: No authorized faces found. Skipping biometric login.
+  -> Task 1: 'face unlock' | Response: Identity verified. Welcome, Admin. Access granted.
+[[92mSUCCESS[0m]
+
+==================================================
+TEST REPORT
+  Total Tested: 123
+  [92mPassed[0m:     123
+  [91mFailed[0m:     0
+==================================================

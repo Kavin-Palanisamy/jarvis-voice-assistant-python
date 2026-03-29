@@ -1,0 +1,168 @@
+2026-03-23 17:57:10,789 - JARVIS - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.238.110.192:5000
+2026-03-23 17:57:10,789 - JARVIS - INFO - [33mPress CTRL+C to quit[0m
+2026-03-23 17:58:08,306 - JARVIS - INFO - Executing task: select all
+2026-03-23 17:58:08,306 - JARVIS - INFO - Routing task: select all
+2026-03-23 17:58:08,412 - JARVIS - INFO - Response: Shortcut ctrl+a executed.
+2026-03-23 17:58:37,842 - JARVIS - INFO - Executing task: move mouse to centre
+2026-03-23 17:58:37,842 - JARVIS - INFO - Routing task: move mouse to centre
+2026-03-23 17:58:37,849 - JARVIS - INFO - Routing 'move mouse to centre' to AI Brain...
+2026-03-23 17:58:38,317 - JARVIS - INFO - Response: Sir, my neural network's daily quota has been exhausted. Please check your Gemini API billing or try again tomorrow.
+2026-03-23 17:59:18,363 - JARVIS - INFO - Executing task: open youtube
+2026-03-23 17:59:18,363 - JARVIS - INFO - Routing task: open youtube
+2026-03-23 17:59:18,568 - JARVIS - INFO - Response: Navigating to https://www.youtube.com.
+2026-03-23 17:59:24,823 - JARVIS - INFO - Executing task: search arabic open youtube
+2026-03-23 17:59:24,824 - JARVIS - INFO - Routing task: search arabic open youtube
+2026-03-23 17:59:24,860 - JARVIS - INFO - Response: Navigating to https://www.youtube.com.
+2026-03-23 17:59:30,697 - JARVIS - INFO - Executing task: search arabic
+2026-03-23 17:59:30,697 - JARVIS - INFO - Routing task: search arabic
+2026-03-23 17:59:30,807 - JARVIS - INFO - Response: Searching Google for: arabic.
+2026-03-23 18:03:16,978 - JARVIS - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.238.110.192:5000
+2026-03-23 18:03:16,978 - JARVIS - INFO - [33mPress CTRL+C to quit[0m
+2026-03-23 18:04:06,512 - JARVIS - INFO - Executing task: munh se mouse to the centre
+2026-03-23 18:04:06,512 - JARVIS - INFO - Routing task: munh se mouse to the centre
+2026-03-23 18:04:07,284 - JARVIS - INFO - Response: Mouse moved to the center, Sir.
+2026-03-23 18:04:22,487 - JARVIS - INFO - Executing task: who moves to the left corner
+2026-03-23 18:04:22,487 - JARVIS - INFO - Routing task: who moves to the left corner
+2026-03-23 18:04:22,489 - JARVIS - INFO - Routing 'who moves to the left corner' to AI Brain...
+2026-03-23 18:04:23,206 - JARVIS - INFO - Response: Sir, my neural network's daily quota has been exhausted. Please check your Gemini API billing or try again tomorrow.
+2026-03-23 18:04:42,556 - JARVIS - INFO - Executing task: new mouse to the centre
+2026-03-23 18:04:42,556 - JARVIS - INFO - Routing task: new mouse to the centre
+2026-03-23 18:04:42,557 - JARVIS - ERROR - Error in task processing for 'new mouse to the centre': PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+Traceback (most recent call last):
+  File "C:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 244, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 386, in _execute_task_internal
+    return sc.move_to_corner(c_str.replace(" ", "-"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\screen_control.py", line 30, in move_to_corner
+    pyautogui.moveTo(pos[0], pos[1], duration=0.6)
+  File "C:\Users\Kavin\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyautogui\__init__.py", line 593, in wrapper
+    failSafeCheck()
+  File "C:\Users\Kavin\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyautogui\__init__.py", line 1734, in failSafeCheck
+    raise FailSafeException(
+pyautogui.FailSafeException: PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+2026-03-23 18:04:42,627 - JARVIS - INFO - Response: Sir, I encountered a systemic error while processing your request: PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+2026-03-23 18:05:27,637 - JARVIS - INFO - Executing task: move mouse to centre
+2026-03-23 18:05:27,637 - JARVIS - INFO - Routing task: move mouse to centre
+2026-03-23 18:05:27,639 - JARVIS - ERROR - Error in task processing for 'move mouse to centre': PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+Traceback (most recent call last):
+  File "C:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 244, in execute_task
+    return _execute_task_internal(task_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 258, in _execute_task_internal
+    return COMMANDS_MAP[task_lower]()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\task_engine.py", line 130, in <lambda>
+    "move mouse to centre":           lambda: sc.move_to_corner("center"),
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kavin\.gemini\antigravity\scratch\Jarvis\screen_control.py", line 30, in move_to_corner
+    pyautogui.moveTo(pos[0], pos[1], duration=0.6)
+  File "C:\Users\Kavin\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyautogui\__init__.py", line 593, in wrapper
+    failSafeCheck()
+  File "C:\Users\Kavin\AppData\Local\Programs\Python\Python312\Lib\site-packages\pyautogui\__init__.py", line 1734, in failSafeCheck
+    raise FailSafeException(
+pyautogui.FailSafeException: PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+2026-03-23 18:05:27,639 - JARVIS - INFO - Response: Sir, I encountered a systemic error while processing your request: PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+2026-03-23 18:22:21,858 - JARVIS - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.238.110.192:5000
+2026-03-23 18:22:21,860 - JARVIS - INFO - [33mPress CTRL+C to quit[0m
+2026-03-23 18:23:39,628 - JARVIS - INFO - Executing task: search tamil song in youtube
+2026-03-23 18:23:39,628 - JARVIS - INFO - Routing task: search tamil song in youtube
+2026-03-23 18:23:39,824 - JARVIS - INFO - Response: Searching YouTube for: tamil sg in.
+2026-03-23 18:23:50,958 - JARVIS - INFO - Executing task: paji searching guys
+2026-03-23 18:23:50,958 - JARVIS - INFO - Routing task: paji searching guys
+2026-03-23 18:23:50,958 - JARVIS - INFO - Routing 'paji searching guys' to AI Brain...
+2026-03-23 18:23:51,748 - JARVIS - INFO - Response: Sir, my neural network's daily quota has been exhausted. Please check your Gemini API billing or try again tomorrow.
+2026-03-23 18:24:04,392 - JARVIS - INFO - Executing task: sexy
+2026-03-23 18:24:04,392 - JARVIS - INFO - Routing task: sexy
+2026-03-23 18:24:04,392 - JARVIS - INFO - Routing 'sexy' to AI Brain...
+2026-03-23 18:24:04,558 - JARVIS - INFO - Response: Sir, my neural network's daily quota has been exhausted. Please check your Gemini API billing or try again tomorrow.
+2026-03-23 18:24:19,279 - JARVIS - INFO - Executing task: close youtube
+2026-03-23 18:24:19,279 - JARVIS - INFO - Routing task: close youtube
+2026-03-23 18:24:20,487 - JARVIS - INFO - Response: I couldn't find an active process for youtube.
+2026-03-23 18:24:29,598 - JARVIS - INFO - Executing task: close edge
+2026-03-23 18:24:29,604 - JARVIS - INFO - Routing task: close edge
+2026-03-23 18:24:29,967 - JARVIS - INFO - Response: Successfully closed edge.
+2026-03-23 18:24:57,437 - JARVIS - INFO - Executing task: search arabic kuthu in youtube
+2026-03-23 18:24:57,437 - JARVIS - INFO - Routing task: search arabic kuthu in youtube
+2026-03-23 18:24:57,504 - JARVIS - INFO - Response: Searching YouTube for: arabic kuthu in.
+2026-03-23 18:25:09,363 - JARVIS - INFO - Executing task: happy boy
+2026-03-23 18:25:09,363 - JARVIS - INFO - Routing task: happy boy
+2026-03-23 18:25:09,363 - JARVIS - INFO - Routing 'happy boy' to AI Brain...
+2026-03-23 18:25:09,543 - JARVIS - INFO - Response: Sir, my neural network's daily quota has been exhausted. Please check your Gemini API billing or try again tomorrow.
+2026-03-23 18:25:25,622 - JARVIS - INFO - Executing task: play the first song
+2026-03-23 18:25:25,622 - JARVIS - INFO - Routing task: play the first song
+2026-03-23 18:25:25,622 - JARVIS - INFO - Routing 'play the first song' to AI Brain...
+2026-03-23 18:25:25,904 - JARVIS - INFO - Response: Sir, my neural network's daily quota has been exhausted. Please check your Gemini API billing or try again tomorrow.
+2026-03-23 18:25:41,261 - JARVIS - INFO - Executing task: what in the screen
+2026-03-23 18:25:41,262 - JARVIS - INFO - Routing task: what in the screen
+2026-03-23 18:25:41,262 - JARVIS - INFO - Routing 'what in the screen' to AI Brain...
+2026-03-23 18:25:41,416 - JARVIS - INFO - Response: Sir, my neural network's daily quota has been exhausted. Please check your Gemini API billing or try again tomorrow.
+2026-03-23 18:25:57,589 - JARVIS - INFO - Executing task: did you find any arabic kuthu in my screen
+2026-03-23 18:25:57,589 - JARVIS - INFO - Routing task: did you find any arabic kuthu in my screen
+2026-03-23 18:25:57,751 - JARVIS - INFO - Response: Based on my optical analysis, you are looking at:
+Sir, my neural network's daily quota has been exhausted. Please check your Gemini API billing or try again tomorrow.
+2026-03-23 18:26:12,226 - JARVIS - INFO - Executing task: ok
+2026-03-23 18:26:12,226 - JARVIS - INFO - Routing task: ok
+2026-03-23 18:26:12,226 - JARVIS - INFO - Routing 'ok' to AI Brain...
+2026-03-23 18:26:12,387 - JARVIS - INFO - Response: Sir, my neural network's daily quota has been exhausted. Please check your Gemini API billing or try again tomorrow.
+2026-03-23 18:27:06,616 - JARVIS - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.238.110.192:5000
+2026-03-23 18:27:06,618 - JARVIS - INFO - [33mPress CTRL+C to quit[0m
+2026-03-23 18:27:45,934 - JARVIS - INFO - Executing task: read my screen
+2026-03-23 18:27:45,934 - JARVIS - INFO - Routing task: read my screen
+2026-03-23 18:27:45,934 - JARVIS - INFO - Response: Sir, Tesseract OCR is not installed. Please install it from https://github.com/UB-Mannheim/tesseract/wiki
+2026-03-23 18:28:33,592 - JARVIS - INFO - Executing task: detect object
+2026-03-23 18:28:33,592 - JARVIS - INFO - Routing task: detect object
+2026-03-23 18:28:33,592 - JARVIS - INFO - Routing 'detect object' to AI Brain...
+2026-03-23 18:28:34,086 - JARVIS - INFO - Response: Sir, my neural network's daily quota has been exhausted. Please check your Gemini API billing or try again tomorrow.
+2026-03-23 18:29:06,916 - JARVIS - INFO - Executing task: updates detect object
+2026-03-23 18:29:06,916 - JARVIS - INFO - Routing task: updates detect object
+2026-03-23 18:29:06,916 - JARVIS - INFO - Routing 'updates detect object' to AI Brain...
+2026-03-23 18:29:07,104 - JARVIS - INFO - Response: Sir, my neural network's daily quota has been exhausted. Please check your Gemini API billing or try again tomorrow.
+2026-03-23 18:29:39,183 - JARVIS - INFO - Executing task: detect objects
+2026-03-23 18:29:39,183 - JARVIS - INFO - Routing task: detect objects
+2026-03-23 18:29:44,815 - JARVIS - INFO - Response: No significant objects detected in frame, Sir.
+2026-03-23 18:30:27,827 - JARVIS - INFO - Executing task: open whatsapp
+2026-03-23 18:30:27,827 - JARVIS - INFO - Routing task: open whatsapp
+2026-03-23 18:30:29,155 - JARVIS - INFO - Response: Attempting to launch whatsapp, Sir.
+2026-03-23 18:30:32,180 - JARVIS - INFO - Executing task: send gowtham message
+2026-03-23 18:30:32,180 - JARVIS - INFO - Routing task: send gowtham message
+2026-03-23 18:30:32,180 - JARVIS - INFO - Routing 'send gowtham message' to AI Brain...
+2026-03-23 18:30:32,372 - JARVIS - INFO - Response: Sir, my neural network's daily quota has been exhausted. Please check your Gemini API billing or try again tomorrow.
+2026-03-23 18:30:56,454 - JARVIS - INFO - Executing task: open whatsapp
+2026-03-23 18:30:56,454 - JARVIS - INFO - Routing task: open whatsapp
+2026-03-23 18:30:57,618 - JARVIS - INFO - Response: Attempting to launch whatsapp, Sir.
+2026-03-23 18:31:00,564 - JARVIS - INFO - Executing task: send a message hello
+2026-03-23 18:31:00,565 - JARVIS - INFO - Routing task: send a message hello
+2026-03-23 18:31:00,566 - JARVIS - INFO - Routing 'send a message hello' to AI Brain...
+2026-03-23 18:31:00,566 - JARVIS - INFO - Response: Hello, Sir. All systems are operational.
+2026-03-23 18:32:24,946 - JARVIS - INFO - Executing task: open whatsapp
+2026-03-23 18:32:24,946 - JARVIS - INFO - Routing task: open whatsapp
+2026-03-23 18:32:26,112 - JARVIS - INFO - Response: Attempting to launch whatsapp, Sir.
+2026-03-23 18:32:29,084 - JARVIS - INFO - Executing task: send hello message to new gowtham
+2026-03-23 18:32:29,084 - JARVIS - INFO - Routing task: send hello message to new gowtham
+2026-03-23 18:32:29,086 - JARVIS - INFO - Routing 'send hello message to new gowtham' to AI Brain...
+2026-03-23 18:32:29,086 - JARVIS - INFO - Response: Hello, Sir. All systems are operational.
+2026-03-23 18:33:07,416 - JARVIS - INFO - Executing task: open whatsapp
+2026-03-23 18:33:07,416 - JARVIS - INFO - Routing task: open whatsapp
+2026-03-23 18:33:08,565 - JARVIS - INFO - Response: Attempting to launch whatsapp, Sir.
+2026-03-23 18:33:11,519 - JARVIS - INFO - Executing task: send hello to new gowtham
+2026-03-23 18:33:11,519 - JARVIS - INFO - Routing task: send hello to new gowtham
+2026-03-23 18:33:11,519 - JARVIS - INFO - Routing 'send hello to new gowtham' to AI Brain...
+2026-03-23 18:33:11,519 - JARVIS - INFO - Response: Hello, Sir. All systems are operational.
+2026-03-23 18:33:25,644 - JARVIS - INFO - Executing task: whatsapp
+2026-03-23 18:33:25,644 - JARVIS - INFO - Routing task: whatsapp
+2026-03-23 18:33:25,645 - JARVIS - INFO - Routing 'whatsapp' to AI Brain...
+2026-03-23 18:33:26,636 - JARVIS - INFO - Response: Sir, my neural network's daily quota has been exhausted. Please check your Gemini API billing or try again tomorrow.

@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background: radial-gradient(circle at center, #0a192f 0%, #020c1b 100%);
+    color: #4df;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Glassmorphism Container */
+.container {
+    background: rgba(10, 25, 47, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(68, 221, 255, 0.2);
+    border-radius: 20px;
+    padding: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(68, 221, 255, 0.1);
+}
+
+/* Typography Base */
+h1 {
+    font-size: 3rem;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #4df, #fff, #4df);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 15px rgba(68, 221, 255, 0.5);
+    transition: all 0.5s ease;
+}
+
+#subtitle-text {
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+    color: rgba(68, 221, 255, 0.6);
+    text-transform: uppercase;
+}
+
+/* JARVIS Core Animation Container */
+.jarvis-core {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ring {
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+
+/* Outer Ring - Multi-segmented look */
+.outer-ring {
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgba(68, 221, 255, 0.3);
+    border-top: 3px solid #4df;
+    border-bottom: 3px solid #4df;
+    animation: rotate 8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    box-shadow: 0 0 20px rgba(68, 221, 255, 0.2);
+}
+
+/* Middle Ring - Hexagon pattern (conceptually) */
+.middle-ring {
+    width: 250px;
+    height: 250px;
+    border: 1px dashed rgba(68, 221, 255, 0.5);
+    animation: rotate-reverse 12s linear infinite;
+}
+
+/* Inner Ring - Fast rotation */
+.inner-ring {
+    width: 180px;
+    height: 180px;
+    border: 4px solid transparent;
+    border-left: 4px solid #4df;
+    border-right: 4px solid #4df;
+    animation: rotate 4s ease-in-out infinite;
+}
+
+/* Pulse Core */
+.core-center {
+    width: 120px;
+    height: 120px;
+    background: radial-gradient(circle, #fff 0%, #4df 40%, rgba(68, 221, 255, 0) 70%);
+    border-radius: 50%;
+    box-shadow: 0 0 50px #4df, inset 0 0 25px #fff;
+    animation: pulse 4s ease-in-out infinite;
+}
+
+/* -- STATE STYLES -- */
+
+body.state-listening h1 { background: linear-gradient(90deg, #0f8, #fff, #0f8); -webkit-background-clip: text; background-clip: text; }
+body.state-listening .outer-ring { border-top-color: #0f8; border-bottom-color: #0f8; box-shadow: 0 0 30px #0f8; animation-duration: 3s; }
+body.state-listening .core-center { background: radial-gradient(circle, #fff 0%, #0f8 40%, transparent 70%); box-shadow: 0 0 60px #0f8; animation: pulse-fast 0.8s infinite alternate; }
+
+body.state-thinking .outer-ring { border-top-color: #f0f; border-bottom-color: #f0f; box-shadow: 0 0 30px #f0f; animation-duration: 1.5s; }
+body.state-thinking .core-center { background: radial-gradient(circle, #fff 0%, #f0f 40%, transparent 70%); box-shadow: 0 0 60px #f0f; animation: pulse-fast 0.4s infinite alternate; }
+
+body.state-speaking .jarvis-core { transform: scale(1.05); }
+body.state-speaking .core-center { animation: speak-pulse 0.3s infinite alternate; }
+
+/* Keyframes */
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes rotate-reverse {
+    0% { transform: rotate(360deg); }
+    100% { transform: rotate(0deg); }
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(0.9); opacity: 0.7; }
+    50% { transform: scale(1.1); opacity: 1; }
+}
+
+@keyframes pulse-fast {
+    0% { transform: scale(0.95); }
+    100% { transform: scale(1.15); }
+}
+
+@keyframes speak-pulse {
+    0% { transform: scale(1); box-shadow: 0 0 50px #4df; }
+    100% { transform: scale(1.2); box-shadow: 0 0 100px #4df; }
+}
+
+/* Data Readout Bits */
+.data-bits {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+    font-size: 0.7rem;
+    color: rgba(68, 221, 255, 0.4);
+    pointer-events: none;
+}
