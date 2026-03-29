@@ -1,3 +1,6 @@
+# jarvis-voice-assistant-python
+AI-powered voice assistant built with Python to automate tasks, control system operations, and interact using voice commands.
+
 # JARVIS AI System
 
 A fully locally-integrated, production-grade AI assistant running natively on Windows.
